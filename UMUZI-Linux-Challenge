@@ -1,0 +1,95 @@
+LINUX CHALLENGE
+
+TASK1
+BASIC TASK
+ls
+pwd
+mkdir workspace
+cd workspace
+ls
+touch README.md
+
+
+TASK2
+ABSOLUTE AND RELATIVE PATHS
+touch excercise.md
+mv excercise.md /tmp
+rm -i ../../../tmp/excercise.md
+
+TASK3
+CAT COMMANDS 
+touch Umuzi.md recruits.md cohort.md
+echo "Umuzi is in Jeppestown and very close to Maboneng" > Umuzi.md
+echo "The number of recruits has increased. Umuzi recruits are a success story!" > recruits.md
+echo "I am in cohort 16 and in Data Science department." > cohort.md
+cat Umuzi.md recruits.md cohort.md
+cat Umuzi.md recruits.md cohort.md > summary.md
+echo "The End" >> summary.md
+ 
+TASK4
+THE LOCATE COMMAND
+locate Umuzi.md
+locate Umuzi.md > search_results.md
+
+TASK5
+THE LOCATE COMMAND Cont...
+cd ~/Documents
+touch pad.md
+cd ~/Desktop
+mkdir work
+cd work
+cp ../Documents/pad.md pad_copy.md
+locate updatedb
+cd ../
+
+locate pad_copy.md
+sudo updatedb
+locate pad_copy.md
+
+TASK6
+FIND COMMANDS
+locate *.pdf
+locate *.pdf > /home/olebogeng/Desktop/D.S/pdf_search.txt
+ls -l
+
+TASK7 
+TEXT Editor
+nano my_bio.md
+mv my_bio.md my_files
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
